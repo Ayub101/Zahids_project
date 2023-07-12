@@ -53,7 +53,7 @@ $('.owl-filter-bar').on('click', '.item', function (e) {
 /** google_map js **/
 function myMap() {
     var mapProp = {
-        center: new google.maps.LatLng(40.712775, -74.005973),
+        center: new google.maps.LatLng(19.090174, 72.882247),
         zoom: 18,
     };
     var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
@@ -74,3 +74,23 @@ function readMore(){
       }
 
 }
+
+// function sendEmail() {
+//     Email.send({
+//       Host: "smtp.gmail.com",
+//       Username: "creativeattires4u@gmail.com",
+//       Password: "ayub@1234",
+//       To: 'kayub4947@gmail.com',
+//       From: "creativeattires4u@gmail.com",
+//       Subject: "Sending Email using javascript",
+//       Body: "Well that was easy!!",
+//     //   Attachments: [
+//     //     {
+//     //       name: "File_Name_with_Extension",
+//     //       path: "Full Path of the file"
+//     //     }]
+//     })
+//       .then(function (message) {
+//         alert("Mail has been sent successfully")
+//       });
+//   }
